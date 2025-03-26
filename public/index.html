@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TexoPad</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/editor.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TexoPad</h1>
+        <h3 id="sub-heading">Fast & Efficient Text Workspace!</h3>
+        <div id="editors">
+            <div class="editor">
+                <h2>Editor 1</h2>
+                <button class="paste-btn">Paste</button>
+                <button class="copy-btn">Copy</button>
+                <textarea id="textarea" placeholder="Start typing..."></textarea>
+            </div>
+        </div>
+        <button class="add-editor-btn" id="addEditor">Add Editor</button>
+        <button class="save-btn" id="saveData">Save Data</button>
+    </div>
+    <script src="/src/js/app.js"></script>
+    <script src="/src/js/editor.js"></script>
+    <script src="/src/js/storage.js"></script>
+</body>
+
+</html>
